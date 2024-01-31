@@ -4,13 +4,14 @@ Implemented Azure Sentinel SIEM for cloud security. Used a live virtual machine 
 
 The Powershell script in this repository is responsible for parsing out Windows Event Log information for failed RDP attacks and using a third party API to collect geographic information about the attackers location.
 
-The script is used in this demo where I setup Azure Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot. We will observe live attacks (RDP Brute Force) from all around the world. I will use a custom PowerShell script to look up the attackers Geolocation information and plot it on an Azure Sentinel Map!
+The script i used was to setup Azure Sentinel (SIEM) and connect it to a live virtual machine acting as a honey pot. I observed live attacks (RDP Brute Force) from all around the world. The custom PowerShell script is used to look up the attackers Geolocation information and plot it on an Azure Sentinel Map!
 
-Languages Used
+Languages Used:
 PowerShell: Extract RDP failed logon logs from Windows Event Viewer
-Utilities Used
+
+Utilities Used:
 ipgeolocation.io: IP Address to Geolocation API
-Attacks from China coming in; Custom logs being output with geodata
+Attacks from all around the world coming in; Custom logs being output with geodata
 
 
 <img width="576" alt="Screenshot 2024-01-31 at 4 08 02 PM" src="https://github.com/johnjlopes20/Azure-Sentinel---Live-Threat-Analysis/assets/75873237/af61a9ff-ac8a-4c61-a448-02f52e319c00">
