@@ -12,7 +12,13 @@ Utilities Used
 ipgeolocation.io: IP Address to Geolocation API
 Attacks from China coming in; Custom logs being output with geodata
 
-<img width="1099" alt="Screenshot 2024-01-31 at 4 01 20 PM" src="https://github.com/johnjlopes20/Azure-Sentinel---Live-Threat-Analysis/assets/75873237/0cea3d2c-0b4b-4921-bd66-fad21b1f1821">
+
+<img width="576" alt="Screenshot 2024-01-31 at 4 08 02 PM" src="https://github.com/johnjlopes20/Azure-Sentinel---Live-Threat-Analysis/assets/75873237/af61a9ff-ac8a-4c61-a448-02f52e319c00">
+
+
+<img width="727" alt="Screenshot 2024-01-31 at 4 06 47 PM" src="https://github.com/johnjlopes20/Azure-Sentinel---Live-Threat-Analysis/assets/75873237/d7a7adc0-bb5b-42f9-8e95-7c5cc73c4ca5">
+
+
 
 World map of incoming attacks after 24 hours (built custom logs including geodata)
 
